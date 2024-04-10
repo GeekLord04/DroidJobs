@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="118dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:alpha="0.6"
+    app:strokeColor="#B0000000"
+    app:cardCornerRadius="10dp"
+    android:elevation="6dp"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_role"
+            android:layout_width="297dp"
+            android:layout_height="29dp"
+            android:paddingStart="2dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:textSize="13dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="TextView"
+            android:textColor="@color/medium_blue"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toEndOf="@+id/img_company"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_company"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/text_company"
+            android:layout_width="297dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="4dp"
+            android:textSize="12dp"
+            android:paddingStart="2dp"
+            android:textColor="@color/light_blue"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="@+id/text_role"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="@+id/text_role"
+            app:layout_constraintTop_toBottomOf="@+id/text_role" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/img_company"
+            app:layout_constraintTop_toBottomOf="@+id/img_company"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/location" />
+
+        <TextView
+            android:id="@+id/text_location"
+            android:layout_width="120dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="18dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:paddingStart="2dp"
+            android:text="TextView"
+            android:textColor="@color/medium_blue"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="170dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.578"
+            app:layout_constraintStart_toEndOf="@+id/text_location"
+            app:layout_constraintTop_toBottomOf="@+id/text_company"
+            app:layout_constraintVertical_bias="0.384" />
+
+        <TextView
+            android:id="@+id/text_salary"
+            android:layout_width="165dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape_bg"
+            android:textSize="12dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textColor="@color/medium_blue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.578"
+            app:layout_constraintStart_toEndOf="@+id/text_location"
+            app:layout_constraintTop_toBottomOf="@+id/text_company"
+            app:layout_constraintVertical_bias="0.384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>
