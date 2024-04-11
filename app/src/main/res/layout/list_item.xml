@@ -5,10 +5,11 @@
     android:layout_height="118dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="8dp"
-    android:alpha="0.6"
-    app:strokeColor="#B0000000"
     app:cardCornerRadius="10dp"
+    app:rippleColor="@color/lightest_blue"
     android:elevation="6dp"
+    app:cardElevation="8dp"
+    android:outlineSpotShadowColor="@color/light_blue"
     android:padding="16dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -18,7 +19,7 @@
         <TextView
             android:id="@+id/text_role"
             android:layout_width="297dp"
-            android:layout_height="29dp"
+            android:layout_height="31dp"
             android:paddingStart="2dp"
             android:layout_marginLeft="18dp"
             android:layout_marginTop="10dp"
@@ -36,7 +37,7 @@
             android:id="@+id/img_company"
             android:layout_width="57dp"
             android:layout_height="57dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -85,7 +86,7 @@
 
         <View
             android:id="@+id/view"
-            android:layout_width="170dp"
+            android:layout_width="133dp"
             android:layout_height="26dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/shape_bg"
@@ -98,11 +99,14 @@
 
         <TextView
             android:id="@+id/text_salary"
-            android:layout_width="165dp"
-            android:layout_height="23dp"
+            android:layout_width="133dp"
+            android:layout_height="26dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/shape_bg"
             android:textSize="12dp"
+            android:paddingStart="5dp"
+            android:text="34235"
+            android:paddingTop="3.5dp"
             android:fontFamily="@font/montserrat_semibold"
             android:textColor="@color/medium_blue"
             app:layout_constraintBottom_toBottomOf="parent"

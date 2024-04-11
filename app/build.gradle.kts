@@ -76,7 +76,7 @@ dependencies {
     implementation(libs.converter.gson)
     implementation(libs.okhttp)
 
-    //Glide
-    implementation(libs.glide)
+    //Coil
+    implementation(libs.coil)
 
 }

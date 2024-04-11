@@ -6,8 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.geekster.droidjobs.R
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class DescFragment : Fragment() {
 
     override fun onCreateView(
