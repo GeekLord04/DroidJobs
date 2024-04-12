@@ -35,7 +35,7 @@ class ListItemAdapter(private val onItemClicked : (JobData) -> Unit) :
                     binding.textRole.text = item.job_title
                     binding.textLocation.text = item.location
                     binding.textCompany.text = item.company
-                    binding.textSalary.text = "$${item.salary_max} - $${item.salary_min}"
+                    binding.textSalary.text = "$${item.salary_min} - $${item.salary_max}"
                     binding.imgCompany.load(item.logo) {
                         transformations(RoundedCornersTransformation(16f)) // Set the radius of rounded corners
                         size(128,128)
