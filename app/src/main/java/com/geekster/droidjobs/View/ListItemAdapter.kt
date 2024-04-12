@@ -11,9 +11,12 @@ import com.geekster.droidjobs.Models.JobData
 import com.geekster.droidjobs.R
 import com.geekster.droidjobs.databinding.ListItemBinding
 
+
 class ListItemAdapter(private val onItemClicked : (JobData) -> Unit) :
     ListAdapter<JobData, ListItemAdapter.ListItemViewHolder> (ComparatorDiffUtil())
 {
+    private var originalList: List<JobData> = emptyList()
+
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
@@ -26,6 +29,19 @@ class ListItemAdapter(private val onItemClicked : (JobData) -> Unit) :
         val item = getItem(position)
         item?.let{
             holder.bind(it)
+        }
+    }
+
+    fun setOriginalList(list: List<JobData>) {
+        originalList = list
+        submitList(list)
+    }
+    fun filter(query: String?) {
+        if (query.isNullOrEmpty()) {
+            submitList(originalList)
+        } else {
+            val filteredList = originalList.filter { it.company.contains(query, true) }
+            submitList(filteredList)
         }
     }
 

@@ -79,4 +79,7 @@ dependencies {
     //Coil
     implementation(libs.coil)
 
+    //Swipe Refresh Layout
+    implementation(libs.androidx.swiperefreshlayout)
+
 }
