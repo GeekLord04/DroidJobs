@@ -21,44 +21,14 @@ import dagger.hilt.android.HiltAndroidApp
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
-//    private var binding : ActivityMainBinding ?= null
-//
-    private val listViewModel by viewModels<ListViewModel>()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        binding = ActivityMainBinding.inflate(layoutInflater)
-//        setContentView(binding!!.root)
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
 
 
-//        listViewModel.getList()
-//        binding!!.buttonFetch.setOnClickListener {
-//
-//            bindObserver()
-//        }
-
-
     }
 
-    private fun bindObserver() {
-        listViewModel.listResponseLiveData.observe(this, Observer {
-            when(it){
-                is NetworkResult.Success -> {
-                    for (i in it.data!!.data){
-                        Log.d(TAG, "MainActivity Response: ${i.company}")
-                    }
-                }
-                is NetworkResult.Error -> {
-                    Log.d(TAG, "MainActivity ErrorResponse: ${it.data} and ${it.message}")
-                }
-                is NetworkResult.Loading -> {
-                    Log.d(TAG, "bindObserver: Loading")
-                }
-            }
-        })
-    }
 
 }

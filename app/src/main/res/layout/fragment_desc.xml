@@ -181,6 +181,8 @@
                 android:text="TextView"
                 android:longClickable="true"
                 android:textIsSelectable="true"
+                android:scrollbars="vertical"
+                android:overScrollMode="never"
                 android:textColor="@color/medium_blue"
                 android:textSize="14dp"
                 app:layout_constraintEnd_toEndOf="parent"
