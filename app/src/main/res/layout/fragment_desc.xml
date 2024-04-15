@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/medium_blue"
+    android:background="#164863"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/profileCard"
         style="@style/CustomCardViewStyle"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="650dp"
         android:layout_alignParentBottom="true"
@@ -33,7 +34,7 @@
                 android:maxLines="2"
                 android:text="TextView"
                 android:textColor="@color/medium_blue"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -46,7 +47,7 @@
                 android:gravity="center"
                 android:text="TextView"
                 android:textColor="@color/light_blue"
-                android:textSize="17dp"
+                android:textSize="17sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/jobRole_text" />
@@ -89,11 +90,11 @@
                 android:id="@+id/location_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="5dp"
                 android:layout_marginTop="11dp"
                 android:fontFamily="@font/montserrat_medium"
                 android:text="TextView"
-                android:textSize="12dp"
+                android:textSize="12sp"
                 app:layout_constraintStart_toEndOf="@+id/imageView3"
                 app:layout_constraintTop_toTopOf="@+id/view2" />
 
@@ -102,10 +103,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="17dp"
                 android:fontFamily="@font/montserrat_medium"
                 android:text="TextView"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 app:layout_constraintEnd_toEndOf="@+id/location_text"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/imageView4"
@@ -116,7 +117,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:layout_marginEnd="12dp"
+                android:layout_marginEnd="10dp"
                 android:src="@drawable/remote"
                 app:layout_constraintEnd_toStartOf="@+id/remote_text"
                 app:layout_constraintTop_toTopOf="@+id/view2" />
@@ -137,12 +138,11 @@
                 android:id="@+id/remote_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
                 android:layout_marginTop="11dp"
-                android:layout_marginEnd="20dp"
+                android:layout_marginEnd="25dp"
                 android:fontFamily="@font/montserrat_medium"
                 android:text="TextView"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 app:layout_constraintEnd_toEndOf="@+id/view2"
                 app:layout_constraintHorizontal_bias="0.844"
                 app:layout_constraintTop_toTopOf="@+id/view2" />
@@ -155,7 +155,7 @@
                 android:layout_marginEnd="20dp"
                 android:fontFamily="@font/montserrat_medium"
                 android:text="TextView"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 app:layout_constraintEnd_toEndOf="@+id/view2"
                 app:layout_constraintStart_toStartOf="@+id/remote_text"
                 app:layout_constraintTop_toBottomOf="@+id/remote_text" />
@@ -168,7 +168,7 @@
                 android:fontFamily="@font/montserrat_medium"
                 android:text="About this Job"
                 android:textColor="@color/medium_blue"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view2" />
 
@@ -184,7 +184,7 @@
                 android:scrollbars="vertical"
                 android:overScrollMode="never"
                 android:textColor="@color/medium_blue"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView7" />
@@ -200,7 +200,7 @@
                 android:textAllCaps="false"
                 android:elevation="10dp"
                 android:textColor="@color/white"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

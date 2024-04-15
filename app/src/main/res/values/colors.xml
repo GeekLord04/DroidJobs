@@ -5,8 +5,9 @@
 
 <!--    <App Colors/>-->
     <color name="dark_blue">#001332</color>
-    <color name="medium_blue">#1B3C73</color>
-    <color name="light_blue">#B31B3C73</color>
-    <color name="lightest_blue">#669AB3D8</color>
+<!--    <color name="medium_blue">#1B3C73</color>-->
+    <color name="medium_blue">#164863</color>
+    <color name="light_blue">#365486</color>
+    <color name="lightest_blue">#D6E0EF</color>
 
 </resources>

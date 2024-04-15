@@ -3,7 +3,7 @@
     android:id="@+id/swipe_to_refresh"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/light_blue"
+    android:background="@color/medium_blue"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".View.ListFragment">
@@ -22,6 +22,7 @@
             android:iconifiedByDefault="false"
             android:focusable="false"
             android:elevation="10dp"
+            android:searchIcon="@drawable/search_icon"
             android:background="@drawable/searchview_bg"
             app:layout_constraintBottom_toTopOf="@+id/list_recyclerView"
             app:layout_constraintEnd_toEndOf="parent"
