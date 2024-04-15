@@ -26,7 +26,6 @@
             android:fontFamily="@font/montserrat_semibold"
             android:text="TextView"
             android:textColor="@color/medium_blue"
-
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.504"
             app:layout_constraintStart_toEndOf="@+id/img_company"
