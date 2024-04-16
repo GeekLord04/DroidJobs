@@ -14,4 +14,4 @@ DroidJobs is your go-to Android app for effortlessly browsing the latest job ope
 - [Android Architecture Components](https://developer.android.com/topic/architecture) - Collection of libraries that help you design testable, and maintainable apps.
   - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes.
   - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - LiveData was used to save and store values for ViewModel calls and response to method calls.
-- [Coil](https://coil-kt.github.io/coil/compose/) - To set or place URL, and Bitmaps as Images on the screen.
+- [Coil](https://coil-kt.github.io/coil/compose/) - To set or place URL as Images as the icon.
