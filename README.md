@@ -18,3 +18,6 @@ DroidJobs is your go-to Android app for effortlessly browsing the latest job ope
   - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes.
   - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - LiveData was used to save and store values for ViewModel calls and response to method calls.
 - [Coil](https://coil-kt.github.io/coil/compose/) - To set or place URL as Images as the icon.
+
+## Architecture 👷‍♂️
+This application was developed following the MVVM (Model-View-ViewModel)
