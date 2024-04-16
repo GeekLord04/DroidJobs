@@ -1,4 +1,5 @@
 <div align="center">
 </br>
-![Icon](https://github.com/GeekLord04/DroidJobs/assets/84928799/117598d5-4c37-4c23-8d08-9bc28e8339f8)
+![Icon](https://github.com/GeekLord04/DroidJobs/assets/84928799/6ab4d816-8476-4c69-b175-91ee3734610e)
+
 </div>
