@@ -28,6 +28,12 @@ This application was developed following the [MVVM(Model View View-Model)](https
 <img src="images/MVVM.svg"/>
 </div>
 
+## Screenshots 📱
+<p align="center">  
+  <img src="images/Screenshot1.svg" width="400" />  
+  <img src="images/Screenshot2.svg" width="400" />   
+</p> 
+
 ## Connect with me:
 [![My Skills](https://skillicons.dev/icons?i=github)](https://github.com/GeekLord04/)
 [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/chirag-cy/)
