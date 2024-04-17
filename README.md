@@ -20,7 +20,7 @@ DroidJobs is your go-to Android app for effortlessly browsing the latest job ope
 - [Coil](https://coil-kt.github.io/coil/compose/) - To set or place URL as Images as the icon.
 
 ## Architecture 👷‍♂️
-This application was developed following the MVVM (Model-View-ViewModel)
+This application was developed following the [MVVM(Model View View-Model)](https://developer.android.com/topic/architecture#recommended-app-arch) architecture.
 <br>
 <div align="center">
 </br>
