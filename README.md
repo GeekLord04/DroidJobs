@@ -21,4 +21,8 @@ DroidJobs is your go-to Android app for effortlessly browsing the latest job ope
 
 ## Architecture 👷‍♂️
 This application was developed following the MVVM (Model-View-ViewModel)
-![MVVM](images/MVVM.svg)
+<br>
+<div align="center">
+</br>
+<img src="images/MVVM.svg"/>
+</div>
