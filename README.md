@@ -30,4 +30,4 @@ This application was developed following the [MVVM(Model View View-Model)](https
 ## Connect with me:
 [![My Skills](https://skillicons.dev/icons?i=github)](https://github.com/GeekLord04/)
 [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/chirag-cy/)
-[![My Skills](https://img.icons8.com/fluency/48/twitterx--v2.png)](https://www.linkedin.com/in/chirag-cy/)
+[![My Skills](https://img.icons8.com/fluency/48/twitterx--v2.png)](https://twitter.com/GeekLord04)
