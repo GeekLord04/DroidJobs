@@ -1,6 +1,6 @@
 <div align="center">
 <br>
-<img src="images/Banner.svg" width="1024" />
+<img src="images/Banner.svg" width="800" />
 
 </div>
 
