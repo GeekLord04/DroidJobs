@@ -26,3 +26,7 @@ This application was developed following the [MVVM(Model View View-Model)](https
 </br>
 <img src="images/MVVM.svg"/>
 </div>
+
+## Connect with me:
+[![My Skills](https://skillicons.dev/icons?i=github)](https://github.com/GeekLord04/)
+[![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/chirag-cy/)
