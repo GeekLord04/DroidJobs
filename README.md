@@ -1,6 +1,7 @@
 <div align="center">
-</br>
+<br>
 <img src="images/icon_svg.svg" width="200" />
+
 </div>
 
 <h1 align = "center">DroidJobs</h1>
@@ -23,7 +24,7 @@ DroidJobs is your go-to Android app for effortlessly browsing the latest job ope
 This application was developed following the [MVVM(Model View View-Model)](https://developer.android.com/topic/architecture#recommended-app-arch) architecture.
 <br>
 <div align="center">
-</br>
+<br>
 <img src="images/MVVM.svg"/>
 </div>
 
