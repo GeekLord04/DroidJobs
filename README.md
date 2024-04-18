@@ -37,7 +37,6 @@ This application was developed following the [MVVM(Model View View-Model)](https
 ## Video 📽
 <p align = "center">
   
-
 https://github.com/GeekLord04/DroidJobs/assets/84928799/4c40b400-e663-43b3-bb9f-f2645bf72a1a
 
 </p>
