@@ -72,7 +72,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-We value your contributions, feedback, and suggestions! 🌟 Feel free to share with anyone who can benefit, and if you find it helpful, please consider giving it a star! 🌟
+I highly welcome your contributions, feedback, and suggestions! 🌟 Feel free to share with anyone who can benefit, and if it helps you, please give it a star 🌟.
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
