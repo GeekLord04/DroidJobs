@@ -34,6 +34,14 @@ This application was developed following the [MVVM(Model View View-Model)](https
   <img src="images/Screenshot2.svg" width="400" />   
 </p> 
 
+## Video 📽
+<p align = "center">
+  
+
+https://github.com/GeekLord04/DroidJobs/assets/84928799/4c40b400-e663-43b3-bb9f-f2645bf72a1a
+
+
+</p>
 ## Connect with me:
 [![My Skills](https://skillicons.dev/icons?i=github)](https://github.com/GeekLord04/)
 [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/chirag-cy/)
